@@ -110,5 +110,16 @@ function startGame() {
 }
 
 function replay() {
-	location.reload();
+	//location.reload();
+	document.getElementById('endScreen').style.display = 'none';
+	btnGo.style.display = 'none';
+	
+	deselectAll();
+	
+	document.getElementById('lblRock').style.backgroundColor = '#EEEEEE';
+	document.getElementById('lblPaper').style.backgroundColor = '#EEEEEE';
+	document.getElementById('lblScissors').style.backgroundColor = '#EEEEEE';
+	
+	imgPlayer.src = 'images/question.png';
+	document.getElementById('imgComputer').src = 'images/question.png';
 }
