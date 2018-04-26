@@ -54,11 +54,11 @@ function go() {
 		}
 		else if(playerChoice == 'paper') {
 			txtEndTitle.innerHTML = 'Paper covers rock';
-			txtEndMessage.innerHTML = 'WIN';
+			txtEndMessage.innerHTML = 'YOU WIN';
 		}
 		else if(playerChoice == 'scissors'){
 			txtEndTitle.innerHTML = 'Rock smashes scissors';
-			txtEndMessage.innerHTML = 'LOSE';
+			txtEndMessage.innerHTML = 'YOU LOSE';
 		}
 	}
 	
@@ -69,7 +69,7 @@ function go() {
 		
 		if(playerChoice == 'rock') {
 			txtEndTitle.innerHTML = 'Paper covers rock';
-			txtEndMessage.innerHTML = 'LOSE';
+			txtEndMessage.innerHTML = 'YOU LOSE';
 		}
 		else if(playerChoice == 'paper') {
 			txtEndTitle.innerHTML = '';
@@ -77,7 +77,7 @@ function go() {
 		}
 		else if(playerChoice == 'scissors') {
 			txtEndTitle.innerHTML = 'Scissors cut paper';
-			txtEndMessage.innerHTML = 'WIN';
+			txtEndMessage.innerHTML = 'YOU WIN';
 		}
 	}
 	
@@ -88,11 +88,11 @@ function go() {
 		
 		if(playerChoice == 'rock') {
 			txtEndTitle.innerHTML = 'Rock smashes scissors';
-			txtEndMessage.innerHTML = 'WIN';
+			txtEndMessage.innerHTML = 'YOU WIN';
 		}
 		else if(playerChoice == 'paper') {
 			txtEndTitle.innerHTML = 'Scissors cuts paper';
-			txtEndMessage.innerHTML = 'LOSE';
+			txtEndMessage.innerHTML = 'YOU LOSE';
 		}
 		else if(playerChoice == 'scissors') {
 			txtEndTitle.innerHTML = '';

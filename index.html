@@ -6,7 +6,23 @@
 	</head>
 	<body onload="init()">
 		<div id="gameWindow">
-			<div id="btnGo">GO</div>
+			
+			<div id = "introScreen">
+				<div id = "introScreenContent">
+					<h1> Rock Paper Scissors </h1>
+					<div id = "btnStart" class = "button" onclick = "startGame()"> Start Game </div>
+				</div>
+			</div>
+				
+			<div id = "endScreen">
+				<div id = "endScreenContent">
+					<h1 id = "txtEndTitle"> Something beats something </h1>
+					<h2 id = "txtEndMessage"> you win, lose, or tie </h2>
+					<div id = "btnReplay" class = "button" onclick="replay()"> Play again </div>
+				</div>
+			</div>
+			
+			<div id="btnGo" onclick="go()"> GO </div>
 
 			<div id="playerPanel">
 				<h2>Player</h2>
@@ -47,5 +63,7 @@
 			
 		</div>
 	</body>
+	
+	<script language="javascript" type="text/javascript" src="rps.js"></script>
+	
 </html>
-
